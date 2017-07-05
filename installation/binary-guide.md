@@ -125,6 +125,7 @@ The first time you connect you will have to create the database schema. Click "M
 ![](../files/installguide_update_database.png)
 
 Once done, you should be redirected to the page for creating the administrator's account.
+**Warning**: If you are using a AD or LDAP authentication, be sure to prepend 'local' to the list of authentication provider in the configuration file. Otherwise you won't be able to create an admin account.
 
 ![](../files/installguide_create_admin.png)
 
